@@ -23,6 +23,7 @@ export default function Login( {history} ){
 
         if(isValid){
             history.push('/main');
+            localStorage.setItem('user',response.data.user);
         }else{
             if(userExist){
                 return handleError();
