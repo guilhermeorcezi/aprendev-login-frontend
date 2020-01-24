@@ -1,0 +1,12 @@
+.welcome-box{
+    margin: 350px auto 0;
+    max-width: 400px;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color:red;
+}
